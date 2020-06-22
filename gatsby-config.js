@@ -4,13 +4,17 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    siteTitleAlt: `小雪Pinky——作品精选`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: `小雪Pinky`,
+        location: '广东•广州',
+        socialMedia: []
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -22,9 +26,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emilia - @lekoarts/gatsby-theme-emilia`,
-        short_name: `Emilia`,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
+        name: `小雪Pinky`,
+        short_name: `Pinky`,
+        description: `资深化妆师小雪Pinky的作品精选`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#3182ce`,
