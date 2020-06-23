@@ -98,10 +98,10 @@ const Projects = ({ projects }: Props) => {
         <animated.div style={fadeUpProps}>
           <Container
             sx={{
-              mt: `-8rem`,
-              display: `grid`,
+              mt: [`-8rem`],
+              display: [`grid`],
               gridTemplateColumns: [`1fr`, `repeat(auto-fill, minmax(350px, 1fr))`],
-              gridColumnGap: 4,
+              gridColumnGap: [4],
             }}
           >
             {projects.map((project, index) => {

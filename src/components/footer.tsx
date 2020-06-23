@@ -24,7 +24,7 @@ const Footer = () => {
       }}
     >
       <Container>
-        <div sx={{ display: `grid`, gridGap: 4, gridTemplateColumns: [`1fr`, `1fr`, `1fr`, `2fr 1fr`] }}>
+        <div sx={{ display: [`grid`], gridGap: [4], gridTemplateColumns: [`1fr`, `1fr`, `1fr`, `2fr 1fr`] }}>
           <div
             sx={{
               p: { mb: 0 },
