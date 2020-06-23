@@ -13,7 +13,8 @@ module.exports = {
       options: {
         name: `小雪Pinky`,
         location: '广东•广州',
-        socialMedia: []
+        socialMedia: [],
+        showThemeAuthor: false,
       },
     },
     {

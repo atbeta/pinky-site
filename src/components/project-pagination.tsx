@@ -39,7 +39,7 @@ const ProjectPagination = ({ prev, next }: ProjectPaginationProps) => (
           my: 0,
         }}
       >
-        More Projects
+        其他作品
       </h2>
       <div sx={{ width: `100%`, height: `2px`, backgroundColor: `muted` }} />
     </div>

@@ -92,7 +92,7 @@ const HeaderProject = ({ title, areas, description, date }: HeaderProjectProps) 
             </Heading>
           </animated.div>
           <animated.div style={infoProps}>
-            <Styled.p sx={{ mb: 0, mt: 4 }}>{date}</Styled.p>
+            {/* <Styled.p sx={{ mb: 0, mt: 4 }}>{date}</Styled.p>
             <div>
               {areas.map((area, index) => (
                 <React.Fragment key={area}>
@@ -100,7 +100,7 @@ const HeaderProject = ({ title, areas, description, date }: HeaderProjectProps) 
                   {area}
                 </React.Fragment>
               ))}
-            </div>
+            </div> */}
             {description && (
               <div sx={{ maxWidth: `900px`, mx: `auto`, mt: 5, p: { textAlign: `left` } }}>
                 <MDXRenderer>{description}</MDXRenderer>

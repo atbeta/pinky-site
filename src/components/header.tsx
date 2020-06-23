@@ -88,10 +88,10 @@ const Header = () => {
             {name}
           </Heading>
           <Heading as="h3" variant="styles.h3">
-            资深彩妆造型师
+          💄资深彩妆造型师
           </Heading>
           <Heading as="h4" variant="styles.h4">
-            承接各类妆面造型：新娘跟妆、平面广告、年会晚宴、影视等，韩式半永久纹眉
+          🤝承接各类妆面造型：新娘跟妆、平面广告、年会晚宴、影视等，韩式半永久纹眉
           </Heading>
         </animated.div>
         <animated.div style={fadeUpPropsDelay}>
