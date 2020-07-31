@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `小雪Pinky——作品精选`,
+    siteTitleAlt: `小雪Pinky`,
   },
   plugins: [
     {
@@ -29,7 +29,7 @@ module.exports = {
       options: {
         name: `小雪Pinky`,
         short_name: `Pinky`,
-        description: `资深化妆师小雪Pinky的作品精选`,
+        description: `资深化妆师小雪Pinky的作品集`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#3182ce`,
